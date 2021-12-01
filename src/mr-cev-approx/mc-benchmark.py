@@ -6,17 +6,6 @@ import matplotlib.pyplot as plt
 def mc(v, K, T, r, kappa, theta, sigma, gamma, n, m):
     """
     monte carlo simulation for mean reverting cev model
-    :param v:
-    :param K:
-    :param T:
-    :param r:
-    :param kappa:
-    :param theta:
-    :param sigma:
-    :param gamma:
-    :param n:
-    :param m:
-    :return:
     """
     dt = T / n
     v = np.ones(m) * v
